@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { FaHeartO, FaCommentO } from 'react-icons/lib/fa'
 import styled from 'styled-components';
 
-<<<<<<< HEAD
 const PostBox =styled.div`
 background-color: #fff;
 border-radius: 3px;
@@ -28,51 +27,6 @@ img{
 const PostNewStuff =styled.div`
 margin: 0 auto;
 `;
-=======
-const PostContainer = styled.div`
-  background-color: #fff;
-  border-radius: 3px;
-  width: 95vw;
-  max-width: 600px;
-  margin: 20px auto;
-  border: 1px solid #e6e6e6;
-`;
-
-const PostUser = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 16px;
-  img{
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-  }
-  span{
-    padding-left: 5px;
-    font-weight: bold;
-  }
-`;
-
-const PostContent = styled.div`
-  img{
-    max-width: 600px;
-    margin: 0 auto;
-  }
-`;
-
-const PostInfo = styled.div`
-  padding: 5px 16px;
-`;
-
-const PostActions = styled.div`
-  svg{
-    padding: 5px;
-  }
-`
-
-class Post extends Component{
->>>>>>> 94d6cc40351d8ac3a8ccaef90f92879be5193822
 
 
 const PostIcons = styled.div`
